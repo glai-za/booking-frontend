@@ -21,7 +21,7 @@ const Book = () => {
   };
   const sendReq = async () => {
     const res = await axios
-      .post('https://booking-backend-ls4t.onrender.com/posts', {
+      .post('https://booking-api-bs1v.onrender.com/posts', {
         appointmentDate: posts.appointmentDate,
         appointmentTime: posts.appointmentTime,
         petName: posts.petName,

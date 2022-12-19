@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://booking-backend-ls4t.onrender.com';
+axios.defaults.baseURL = 'https://booking-api-bs1v.onrender.com';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
